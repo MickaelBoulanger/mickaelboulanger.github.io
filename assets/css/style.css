@@ -21,36 +21,25 @@ body{background-color: rgb(70, 70, 70);}
     margin-left: 100px;
     
 }
-.center{
-    width: 85%;
-    height: 190px;
-    margin-left:20px;
-
-
-
-}
-.center1{
-    width: 85%;
-    height: 190px;
-    margin-left:20px;
-
-}
 .form{
     background-color: #6df1f5;
-    width: 100%;
+    width: 85%;
     height: 600px;
+    margin-left: 100px;
     
 }
 .exp{
     background-color: #3b7b7d;
-    width: 100%;
+    width: 85%;
     height: 610px;
+    margin-left: 100px;
     
 }
 .pfolio{
     background-color: #3ea2a5;
-    width: 100%;
+    width: 85%;
     height: 250px;
+    margin-left: 100px;
     
 }
 .contact{
@@ -58,12 +47,14 @@ body{background-color: rgb(70, 70, 70);}
     width: 40%;
     height: 250px;
     
+    
 }
 
 .hobbie{
     background-color: #589cc6;
-    width: 100%;
+    width: 85%;
     height: 250px;
+    margin-left: 100px;
     
 
 
