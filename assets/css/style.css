@@ -34,11 +34,11 @@ li a:hover {
     background-color: rgb(84, 107, 237);
     padding-left: 60px;
     
-    
 }
 .description{
     background-color: #589cc6;
-    width: 70%;
+    width: 30%;
+    padding-left: 40px;
 
 
 }
@@ -58,6 +58,19 @@ li a:hover {
 
 
 
+                                            /* loisirs */
+
+#container6{
+    background-color: rgb(84, 107, 237);
+
+}
+
+.hobbietext{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+    
 
 
 
@@ -74,8 +87,7 @@ li a:hover {
 
 
 
-
-                                                /* contact */
+                                            /* contact */
 #container7{ 
     background-color: rgb(84, 107, 237);
     padding-bottom: 20px;
