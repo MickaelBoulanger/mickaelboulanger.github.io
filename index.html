@@ -43,7 +43,7 @@
 <main>
     <div class="skill">
         <div>
-            <h2>Compétences</h2>
+            <h2>COMPETENCES</h2>
             <h3>Outils</h3>
             <p>Github</p>
             <p>Trello</p>
@@ -59,7 +59,7 @@
                             <!-- fin competences -->
                             <!-- formations -->
         <div class="form">
-            <h2>Formations</h2>
+            <h2>FORMATIONS</h2>
 
             <div>
                 <h3>Tp dwwm</h3>
@@ -102,7 +102,7 @@
                             <!-- fin formations -->
                             <!-- experiences -->
         <div class="exp">
-            <h2>Expériences</h2>
+            <h2>EXPERIENCES</h2>
 
             <div>
                 <h3>Ajusteur monteur aéronautique</h3>
@@ -143,46 +143,62 @@
                 </div>
             </div>
         </div>
-</main>
+
                                 <!-- fin experience -->
                                 <!-- debut portfolio -->
-        <div class="pfolio">
-            <div>
-                <h2>Portfolio</h2>
+        <div id="container5">
+            <div class="pfolio">
+                <div>
+                <h2>PORTFOLIO</h2>
                 <h3>En cours</h3>
+                </div>
             </div>
         </div>
-
                                 <!-- fin portfolio -->
                                 <!-- debut loisirs -->
-        <div class="hobbie">
-            <div>
-                <h2>Loisirs</h2>
+        <div id="container6">
+            <div id="hobbie">
+                <div>
+                <h2>LOISIRS</h2>
                 <h3>Running</h3>
                 <h3>Nouvelles technologies</h3>
                 <h3>7 éme art</h3>
-
+                </div>
             </div>
-        </div>
-                                <!-- fin loisirs -->
+        </div></main>                            
+    <!-- fin loisirs -->
                                 <!-- debut conatct -->
 <footer>
-        <div class="contact">
-            <div>                      
-                <h2>Contact</h2>
-
-                 <h3>CONTACTER MOI</h3>
-                 <p>NOM</p>
-                 <p>E-MAIL</p>
-                 <p>MESSAGE</p>
-                 
-                 <input class="styled" type="button" value="envoyer"></input>
-          
-            </div>
+    
+    <form id="contact_form"  method="POST" enctype="multipart/form-data">
+       
+        <div id="container"> 
+            <h2>CONTACT</h2>
+        <div id="contact">
+        <div class="row">
+            <label class="required" for="name">Nom:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="40" /><br />
+            
         </div>
+        <div class="row">
+            <label class="required" for="email">Email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="40" /><br />
+            
+        </div>
+        <div class="row">
+            <label class="required" for="message">Message:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="40"></textarea><br />
+            
+            <input id="button" type="submit" value="Envoyer" />
+        </div>
+        </div>
+        
+        
+    </div>
+    </form>
 </footer>
 
-</div>
+
 
                                 <!-- fin contact -->
                                 

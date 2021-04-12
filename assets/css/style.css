@@ -6,14 +6,17 @@ body{background-color: rgb(70, 70, 70);}
     background-color: #D9F6FF;
     width: 100%;
     height: 350px;
+
     
 }
+
 #description{
     margin: 45px;
     width: 100%;
 
 
 }
+/* competences */
 .skill{
     background-color: #bdf7f9;
     width: 85%;
@@ -21,13 +24,16 @@ body{background-color: rgb(70, 70, 70);}
     margin-left: 100px;
     
 }
+/* formation */
 .form{
     background-color: #6df1f5;
     width: 85%;
     height: 600px;
     margin-left: 100px;
     
+    
 }
+/* experiences */
 .exp{
     background-color: #3b7b7d;
     width: 85%;
@@ -35,6 +41,13 @@ body{background-color: rgb(70, 70, 70);}
     margin-left: 100px;
     
 }
+/* portfolio */
+#container5{
+    background-color: cornflowerblue;
+
+}
+
+
 .pfolio{
     background-color: #3ea2a5;
     width: 85%;
@@ -42,23 +55,39 @@ body{background-color: rgb(70, 70, 70);}
     margin-left: 100px;
     
 }
-.contact{
+/* contact */
+#contact{
     background-color: #589cc6;
-    width: 40%;
-    height: 250px;
-    
+    width: 30%;
+    height: 300px;
+    margin-left: 20px;
+   
     
 }
+#container{ 
+    background-color: rgb(39, 93, 210);
+    
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.row{padding-left: 20px;
+    padding-top: 20px;
+}
 
-.hobbie{
+
+
+/* loisirs */
+#container6{background-color: cadetblue;}
+#hobbie{
     background-color: #589cc6;
     width: 85%;
-    height: 250px;
+    height: 200px;
     margin-left: 100px;
-    
+    }
 
 
-}
+
+/* nav bar */
 ul {
     list-style-type: none;
     margin: 0;
