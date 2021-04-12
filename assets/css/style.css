@@ -1,3 +1,7 @@
+body{background-color: rgb(70, 70, 70);}
+
+
+
 #header{
     background-color: #D9F6FF;
     width: 100%;
@@ -12,9 +16,24 @@
 }
 .skill{
     background-color: #bdf7f9;
-    width: 100%;
+    width: 85%;
     height: 290px;
+    margin-left: 100px;
     
+}
+.center{
+    width: 85%;
+    height: 190px;
+    margin-left:20px;
+
+
+
+}
+.center1{
+    width: 85%;
+    height: 190px;
+    margin-left:20px;
+
 }
 .form{
     background-color: #6df1f5;
