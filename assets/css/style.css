@@ -1,4 +1,36 @@
-body{background-color: rgb(70, 70, 70);}
+
+body{
+    background-color: grey;
+}
+    
+    
+    /* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(59, 61, 63);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(55, 170, 182);
+}
+
+
+
 
 
 
@@ -16,100 +48,33 @@ body{background-color: rgb(70, 70, 70);}
 
 
 }
-/* competences */
-.skill{
-    background-color: #bdf7f9;
-    width: 85%;
-    height: 290px;
-    margin-left: 100px;
-    
-}
-/* formation */
-.form{
-    background-color: #6df1f5;
-    width: 85%;
-    height: 600px;
-    margin-left: 100px;
-    
-    
-}
-/* experiences */
-.exp{
-    background-color: #3b7b7d;
-    width: 85%;
-    height: 610px;
-    margin-left: 100px;
-    
-}
-/* portfolio */
-#container5{
-    background-color: cornflowerblue;
-
-}
-
-
-.pfolio{
-    background-color: #3ea2a5;
-    width: 85%;
-    height: 250px;
-    margin-left: 100px;
-    
-}
 /* contact */
-#contact{
-    background-color: #589cc6;
-    width: 30%;
-    height: 300px;
-    margin-left: 20px;
-   
-    
-}
-#container{ 
+#container7{ 
     background-color: rgb(39, 93, 210);
-    
     padding-bottom: 20px;
     padding-left: 40px;
 }
-.row{padding-left: 20px;
-    padding-top: 20px;
-}
-
-
-
-/* loisirs */
-#container6{background-color: cadetblue;}
-#hobbie{
+#contact{
     background-color: #589cc6;
-    width: 85%;
-    height: 200px;
-    margin-left: 100px;
-    }
-
-
-
-/* nav bar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(77, 77, 77);
+    width: 30%;
+    height: 320px;
+    margin-left: 20px;
 }
 
-li {
-    float: right;
+.row{padding-left: 20px;
+    padding-top: 10px;
 }
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.text{
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 
-li a:hover {
-    background-color: rgb(55, 170, 182);
-}
+
+
+
+
+
+
+
 
