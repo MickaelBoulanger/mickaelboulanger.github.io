@@ -153,7 +153,14 @@ p{
 }
 
                                         /* typo */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+h2{
+    font-family: 'Roboto', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@300;400&display=swap');
+h3,p{
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 
 
