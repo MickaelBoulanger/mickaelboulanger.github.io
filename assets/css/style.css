@@ -39,8 +39,9 @@ li a:hover {
 #container1{
     background-color: rgb(45, 70, 97);
     padding-left: 60px;
-    height: 200px;
+    height: 270px;
     display: flex;
+    justify-content:space-between;
     margin-bottom: 20px;
     
 }
@@ -49,6 +50,12 @@ li a:hover {
     width: 30%;
     padding-left: 40px;
 }
+#link{
+    
+    margin-top: 90px;
+    
+}
+
                                     /* competences */
 #container2{
     background-color: rgb(45, 70, 97);
@@ -139,7 +146,7 @@ li a:hover {
     padding-top: 10px;
 }
                                         /* color text */
-h2{ color: rgb(244, 239, 239);
+h2,h1{ color: rgb(244, 239, 239);
 }
 h3{
     color: rgb(162, 162, 101);
@@ -154,13 +161,14 @@ p{
 
                                         /* typo */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-h2{
+h2,h1{
     font-family: 'Roboto', cursive;
 }
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@300;400&display=swap');
 h3,p{
     font-family: 'Nunito Sans', sans-serif;
 }
+
 
 
 
