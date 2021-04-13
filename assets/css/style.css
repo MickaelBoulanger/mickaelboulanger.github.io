@@ -1,20 +1,26 @@
 
 body{
-    background-color: grey;
+    background-color: rgb(29, 28, 28);
 }
     
     
                                     /* nav bar */
+
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(59, 61, 63);
+    position: fixed;
+    right: 0;
+    
 }
 
 li {
     float: right;
+    
 }
 
 li a {
@@ -107,13 +113,11 @@ li a:hover {
     margin-bottom: 20px;
    
 }
-
-
     
 
                                     /* contact */
 #container7{ 
-    background-color: rgb(84, 107, 237);
+    background-color: rgb(116, 131, 215);
     padding-bottom: 20px;
     padding-left: 40px;
     margin-top: 20px;
