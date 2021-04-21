@@ -1,151 +1,58 @@
-
-body{
-    background-color: rgb(29, 28, 28);
+                                    /* body header html */
+html,body{
+    height: 100%;
 }
+header {
+    background-image: url(/assets/img/concept-papier-peint-beton-colore-texture_53876-31799.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+                                        /* nav bar */
     
     
-                                    /* nav bar */
-.nav-item:hover {
-    background-color: rgba(169, 232, 233, 0.851);
-    
-    
-        }
+                                    
+
                                         
 
 
-                                    /* description */
-#container1{
-    background-color: rgb(45, 70, 97);
-    padding-left: 60px;
-    height: 270px;
-    display: flex;
-    justify-content:space-between;
-    margin-bottom: 20px;
-    
-}
-.description{
-    background-color: #589cc6;
-    width: 30%;
-    padding-left: 40px;
-}
-#link{
-    
-    margin-top: 90px;
-    
-}
+                                   
 
-                                    /* competences */
-#container2{
-    background-color: rgb(45, 70, 97);
-    margin-bottom: 20px;
+
+
+                                    
+
+
+
+
+                                    
+
+                                    
+
+
     
-    
-}
-.skill{
-    margin-left: 60px;
-    padding-top: 10px;
-    
+
+
+
+
+
+                                        /* media fond ecran */
+@media (max-width: 1024px) { 
+    header{
+    left: 50%;
+    margin-left: -512px;
     }
-.skill1{
-    display: flex;
-    justify-content: space-evenly;
-    line-height: 2em;
-
-}
-
-                                    /*  formations et */
-#container3{
-    background-color:rgb(45, 70, 97);
-    display: flex;
-    justify-content: space-evenly;
-    
-                              
-}
-.for1{
-    display: flex;
-    margin-left: 100;
-    
-}
-.exp1{
-    display: flex;
-}
-
-                                    /* portfolio */
-#container5{
-    background-color: rgb(45, 70, 97);
-    height: 100px;
-    margin-bottom: 20px;
-    
-}
-.port{
-    margin-left: 60px;
-    
-}
-
-                                    /* loisirs */
-
-#container6{
-    background-color: rgb(45, 70, 97);
-    
-
-}
-
-.hobbietext{
-    padding-left: 60px;
-    padding-top: 10px;
-}
-.hobbie{
-    display: flex;
-    justify-content:space-evenly;
-    margin-bottom: 20px;
-   
-}
-    
-                                    /* contact */
-#container7{ 
-    background-color: rgb(45, 70, 97);
-    padding-bottom: 20px;
-    padding-left: 40px;
-    margin-top: 20px;
-}
-#contact{
-    background-color: #589cc6;
-    width: 30%;
-    height: 320px;
-    margin-left: 20px;
-}
-
-.row{
-    padding-left: 20px;
-    padding-top: 10px;
-}
-.text{
-    padding-left: 20px;
-    padding-top: 10px;
-}
-                                        /* color text */
-h2,h1{ color: rgb(244, 239, 239);
-}
-h3{
-    color: rgb(162, 162, 101);
-}
-h4{
-    color:rgb(247, 179, 95);
-}
-p{
-    color:rgb(235, 229, 221)
-
-}
+   } 
 
                                         /* typo */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-h2,h1{
+body{
     font-family: 'Roboto';
 }
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@300;400&display=swap');
-h3,p{
-    font-family: 'Nunito Sans', sans-serif;
-}
+
 
 
 
