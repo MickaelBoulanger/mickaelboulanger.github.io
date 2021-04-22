@@ -27,14 +27,17 @@ h2{
 }
                                     /* competences */
 .skill1,.skill2,.skill3,.skill4,.skill5,.skill6{
-    margin-top: 30px
-}
-.progress1{
-    color: aqua
+    margin-top: 30px;
+    
 }
 h3{
     color: rgba(213, 213, 213, 0.975);
 }
+
+
+                                    /* exp */
+
+
 
                                     /* media fond ecran */
 
